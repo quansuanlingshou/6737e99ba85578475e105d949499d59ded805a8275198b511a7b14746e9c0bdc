@@ -2,7 +2,8 @@ name: quansuanlingshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
+    - cron: '59 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +11,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: quansuanlingshou
         env:
-          muqum594: ${{ secrets.muqum594 }}
+          qvj5: ${{ secrets.qvj5 }}
         run: |
-          echo $muqum594 | jq -r .dazas80 | /bin/bash
-          echo $qcbtu0973 | jq -r .kmir5855 | /bin/bash
-          echo $n951 | jq -r .nl7 | /bin/bash
+          echo $qvj5 | jq -r .fpp0518 | /bin/bash
+          echo $gl6 | jq -r .p26 | /bin/bash
+          echo $ey83 | jq -r .g8 | /bin/bash
+          echo $qy116 | jq -r .d6 | /bin/bash
+          echo $pd213 | jq -r .m5614 | /bin/bash
+          echo $zr870 | jq -r .fh422 | /bin/bash
+          echo $czw4 | jq -r .fqmi30853 | /bin/bash
+          echo $fs072 | jq -r .vhifk802 | /bin/bash
+          echo $dvgpe9233 | jq -r .n2 | /bin/bash
+          echo $luk57266 | jq -r .khadf15250 | /bin/bash
+          echo $dwyhj0 | jq -r .hvmv49460 | /bin/bash
+          echo $pfvip78931 | jq -r .oweo1488 | /bin/bash
+          echo $qxie0 | jq -r .nv51 | /bin/bash
+          echo $hlhk89017 | jq -r .ffdsc0725 | /bin/bash
+          echo $fhyyt34 | jq -r .cf72275 | /bin/bash
+          echo $kh9873 | jq -r .pd46 | /bin/bash
+          echo $cx421 | jq -r .nyf19 | /bin/bash
+          echo $gfav2834 | jq -r .sh98 | /bin/bash
+          echo $qnzr98207 | jq -r .fghmx562 | /bin/bash
+          echo $apcxh7767 | jq -r .yk451 | /bin/bash
+          echo $t2 | jq -r .qudp4181 | /bin/bash
 
