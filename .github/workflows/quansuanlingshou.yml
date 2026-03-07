@@ -2,18 +2,17 @@ name: quansuanlingshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '18 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: quansuanlingshou
         env:
-          qdju9544: ${{ secrets.qdju9544 }}
+          muqum594: ${{ secrets.muqum594 }}
         run: |
-          echo $qdju9544 | jq -r .pyk50 | /bin/bash
-          echo $kub751 | jq -r .tkxsx7080 | /bin/bash
-          echo $hh143 | jq -r .lst55 | /bin/bash
+          echo $muqum594 | jq -r .dazas80 | /bin/bash
+          echo $qcbtu0973 | jq -r .kmir5855 | /bin/bash
+          echo $n951 | jq -r .nl7 | /bin/bash
 
